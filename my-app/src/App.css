@@ -1,0 +1,245 @@
+
+* {color: black;}
+body {
+    margin: 0px;
+ 
+
+}
+
+header {
+display: flex;
+flex-direction:row;
+flex-wrap:wrap;
+padding: 20px;
+justify-content:space-between;
+align-items:center;
+background-image: url("./images/circuit.jpg");
+background-position: auto;
+background-attachment:local;
+}
+
+header a {
+    text-decoration:none;
+    color:white;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction:row;
+    list-style-type:none;
+    align-items:center;
+
+}
+
+nav ul li {
+    padding:20px;
+
+}
+
+nav ul li a {
+    font-size: 24px;
+} 
+
+
+section {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width: 1200px;
+    margin: auto;
+    color: white;
+    /* background-color: rgba(6, 4, 58, 0.887); */
+}
+
+.flex-row {
+    display: flex;
+  }
+
+.section-box {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 20px 50px 20px 50px;
+}
+
+.section-box a {
+  /* width: auto;
+  display: flex; */
+
+  padding: 20px 50px 20px 50px;
+}
+
+.section-box img {
+    max-width: 25%;
+    padding: 1px;
+  }
+
+.section-title {
+    width: 200px;
+    border-right: 5px solid black;
+    padding: 20px;
+    margin: 20px; 
+    font-size: 28px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.sc-about {
+    justify-content:space-between;
+
+}
+
+.sc-about p {
+    max-width:600px
+}
+
+.section-card-c {
+
+    padding: 10px; 
+    flex: 0 1 190px;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: space-around;
+  }
+
+  .section-card {
+    border-radius: 10px;
+    padding: 10px; 
+    flex: 0 1 190px;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: space-around;
+  }
+
+  .section-card header {
+    padding: 20px;
+  }
+  
+  .section-card p {
+    text-align: center;
+  }
+  
+  .section-card img {
+ 
+        max-width: 200px;
+        max-height:auto;
+        padding: 10px;
+        border-radius: 10%;;  
+  }
+  
+/*Contact*/
+.contact {
+    background: transparent; 
+  }
+
+  .contact h2 {
+    font-size: 42px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+  
+  .contact-info iframe {
+    padding:20px;
+    border-radius: 10%;
+  }
+  
+  .contact-info div {
+    color: white;
+  }
+  
+  .contact-info h3 {
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    border: none;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  
+  .contact-form button:hover {
+    /* color: #fce138; */
+    background: #39a6b2;
+  }
+  /*Contact End*/
+
+  /* Footer Start */
+footer {
+    background: transparent;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h2 {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* END FOOTER STYLES */
+
+  /* Profile Pic */
+  .profile-photo {
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 10%;  
+}
