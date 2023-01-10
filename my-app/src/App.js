@@ -1,49 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Portfolio from './Components/Portfolio';
 import About from './Components/About';
-import { Component } from 'react';
+import Portfolio from './Components/Portfolio';
+import Map from './Components/Map';
+import Footer from './Components/Footer';
+import ContactForm from './Components/ContactForm';
 
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      resumeData: {}
-    };
-  }
+function App() {
+  const [contactSelected, setContactSelected] = useState(false);
 
-  getResumeData() {
-    $.ajax({
-      url: '/resumeData.json',
-      dataType: 'json',
-      cache: false,
-      success: function (data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
+  return (
+    <div>
+      <Header></Header>
+      <main>
+        {!contactSelected ? (
+          <>
+            <About></About>
+            <Portfolio></Portfolio>
+            <ContactForm></ContactForm>
 
-    componentDidMount() {
-      this.getResumeData();
-    }
 
-    render() {
-      return (
-        <div className="App">
-          <Header data={this.state.resumeData.main} />
-          <About data={this.state.resumeData.main} />
-          <Portfolio data={this.state.resumeData.portfolio} />
-          <Footer data={this.state.resumeData.main} />
-        </div>
-      );
-    }
-  }
+          </>
+        ) : (
+          <div>
+            
+          </div>
+        )}
+      </main>
+      <Footer></Footer>
+    </div>
+  );
+}
 
-  export default App;
+export default App;

@@ -13,7 +13,7 @@ class Header extends Component {
                             <a href="#about-me">About Me</a>
                         </li>
                         <li>
-                            <a href="#work">Work</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
