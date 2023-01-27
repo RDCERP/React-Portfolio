@@ -28,8 +28,8 @@ class Portfolio extends Component {
                                     <h3>Recipe Finder</h3>
                                 </div>
                             </a>
-                            <a href="https://rdcerp.github.io/portfolio/">
-                                <img src={boardface} title="Portfolio" /><h3>Portfolio</h3>
+                            <a href="https://my-stores.herokuapp.com/">
+                                <img src={boardface} title="My Stores" /><h3>Portfolio</h3>
                             </a>
                             <a href="https://byte-farmers-market.herokuapp.com/">
                                 <img src={brain} /><h3>Byte-Farmers-Market</h3>
