@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.f3a30786.css",
-    "main.js": "/React-Portfolio/static/js/main.2c239d65.js",
+    "main.js": "/React-Portfolio/static/js/main.c2b2e57b.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/banner.jpg": "/React-Portfolio/static/media/banner.c3014b5484ffa6aac272.jpg",
     "static/media/sky.jpg": "/React-Portfolio/static/media/sky.6f124649c635466dead5.jpg",
     "static/media/cat.jpg": "/React-Portfolio/static/media/cat.7838fe09fc97c6695c04.jpg",
     "static/media/brick.jpg": "/React-Portfolio/static/media/brick.91bbc6fa5bedadbcfc60.jpg",
-    "static/media/boardface.jpg": "/React-Portfolio/static/media/boardface.a9c96ee1ac25de0a8d46.jpg",
     "static/media/profile.jpg": "/React-Portfolio/static/media/profile.8633c5f3485771e0f8f1.jpg",
     "static/media/hero-bg.jpeg": "/React-Portfolio/static/media/hero-bg.000e1b5ff4f0b912c97f.jpeg",
     "static/media/brain.jpg": "/React-Portfolio/static/media/brain.a9c162f0b48e081d88c5.jpg",
     "static/media/circuit.jpg": "/React-Portfolio/static/media/circuit.c8b94e63c84c00bf7258.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.f3a30786.css.map": "/React-Portfolio/static/css/main.f3a30786.css.map",
-    "main.2c239d65.js.map": "/React-Portfolio/static/js/main.2c239d65.js.map",
+    "main.c2b2e57b.js.map": "/React-Portfolio/static/js/main.c2b2e57b.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a30786.css",
-    "static/js/main.2c239d65.js"
+    "static/js/main.c2b2e57b.js"
   ]
 }
